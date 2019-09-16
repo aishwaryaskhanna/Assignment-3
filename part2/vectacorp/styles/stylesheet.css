@@ -73,30 +73,27 @@ ul{
     padding-left: 33%;
     padding-right: 33%;
 }
-  #vprospect h3{
+  #vprospectdiv h3{
     clear: left;
     border-top: solid 5px #CC1C0D;   
 }
 
-#vconvert h3{
+#vconvertdiv h3{
     clear: left;
     border-top: solid 5px #37A4A4; 
       }
       
-#vretain h3{
+#vretaindiv h3{
     clear: left;
     border-top: solid 5px #685288; 
 }
 
-#enterprise h3{
-    margin-top:11px;
+#enterprisediv h3{
+    margin-top:26px;
+    margin-bottom:11px;
     border-top: solid 5px #000000; 
 }
 
-#enterprise:not(:last-child){
-    line-height: 1em !important;
-}
-
-#enterprise{
-    padding-top: 15px;
+#vprospect, #vconvert, #vretain{
+    font-weight: bold;
 }
