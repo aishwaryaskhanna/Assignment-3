@@ -6,10 +6,11 @@ body{
     line-height: 2em;
 }
 
-/* to keep or not to keep*/
+img[src="images/header.gif"]{
+    width:"100%";
+}
+
 img[src^="images/head_"]{
-    width:80px;
-    height:100px;
     float: left;
     border: #CC1C0D solid 1px;
     border-radius: 50px;
@@ -20,6 +21,8 @@ img[src^="images/logo"]{
     width:63px;
     height:36px;
     float: left;
+    margin-top: 7px;
+    margin-right: 5px;
 }
 
 p + ul{
@@ -30,13 +33,13 @@ ul{
     list-style-type: none; 
   }
 
-/**change colours **/
+
   h2{
       border: solid 1px #929CA4;
       background-color: #DFE3E6;
       border-radius: 10px;
       padding-left: 5px;
-      color: red;
+      color:#CC1C0D;
       font-size: 1.2em;
   }
 
@@ -86,11 +89,14 @@ ul{
 }
 
 #enterprise h3{
+    margin-top:11px;
     border-top: solid 5px #000000; 
 }
 
-
-/*alignment of enterprise*/
 #enterprise:not(:last-child){
     line-height: 1em !important;
+}
+
+#enterprise{
+    padding-top: 15px;
 }
